@@ -23,12 +23,12 @@ body {
 .container {
     background-color: yellow;
     width: 80%;
-    /* height: 95vh; */
     border: 2px solid black;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     margin: auto;
     border-radius: 10px 0 10px 10px;
     position: relative;
+    padding-bottom: 2rem;
 }
 img {
     width: 100%;
@@ -122,7 +122,7 @@ header {
 
 .heroSection {
     position: relative;
-    height: 80vh;
+    height: 88vh;
     max-width: 75%;
     margin: auto;
 }
@@ -131,10 +131,10 @@ header {
     width: 650px;
     height: 650px;
     right: -1rem;
-    top: 3rem;
+    top: 6rem;
 }
 .heroSection .detail {
-    padding-top: 9rem;
+    padding-top: 12rem;
 }
 .heroSection .detail .title {
     font-size: 4rem;
@@ -168,5 +168,42 @@ header {
 .heroSection .detail .heroBtn:active {
     box-shadow: none;
 }
+/*  =========================== heroSection =========================== */
 
-/*  =========================== heroSection =========================== */ ;
+/*  =========================== About Headphone Section =========================== */
+.aboutHeadphone {
+    position: relative;
+    max-width: 75%;
+    /* margin: auto; */
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 2rem auto;
+    overflow-y: hidden;
+}
+.aboutHeadphone .image {
+    width: 310px;
+    margin-top: -12rem;
+    height: 450px;
+    margin-left: 3rem;
+}
+.aboutHeadphone .aboutDetail h4 {
+    font-size: 1.8rem;
+    font-family: "Architects Daughter", cursive;
+    position: relative;
+    display: inline-block;
+}
+.aboutHeadphone .aboutDetail h3 {
+    font-family: "Jost", sans-serif;
+    font-size: 2.3rem;
+    width: 650px;
+    margin: 0.6rem 0 1rem;
+}
+.aboutHeadphone .aboutDetail p {
+    width: 600px;
+    font-family: "Architects Daughter", cursive;
+    letter-spacing: 1px;
+}
+
+/*  =========================== About Headphone Section =========================== */
