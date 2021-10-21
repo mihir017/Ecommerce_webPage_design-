@@ -19,6 +19,7 @@ body {
     background-color: red;
     padding: 3rem 0;
     /* color: white; */
+    scroll-behavior: smooth;
 }
 .container {
     background-color: yellow;
@@ -181,6 +182,11 @@ header {
     display: flex;
     margin: 2rem auto;
     overflow-y: hidden;
+    box-shadow: 6px 6px 1px rgb(0 0 0 / 80%);
+    cursor: pointer;
+}
+.aboutHeadphone:hover {
+    box-shadow: none;
 }
 .aboutHeadphone .image {
     width: 310px;
@@ -207,3 +213,59 @@ header {
 }
 
 /*  =========================== About Headphone Section =========================== */
+
+/*  =========================== car Section =========================== */
+
+.cardSection {
+    position: relative;
+    max-width: 75%;
+    padding: 2rem;
+    margin: 4rem auto;
+}
+.cardSection .cards {
+    margin-top: 5rem;
+}
+.cardSection .cards .card {
+    width: 200px;
+    border: 2px solid;
+    cursor: pointer;
+    transform: skew(6deg, 2deg);
+    position: relative;
+    z-index: 2;
+    box-shadow: 6px 6px 1px rgba(68, 68, 68, 0.4);
+    border-radius: 10px;
+}
+.cardSection .cards .card:hover {
+    box-shadow: none;
+}
+.cardSection .cardHeader {
+    text-align: center;
+    font-family: "Architects Daughter", cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.cardSection .card .cardImg {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: -3rem;
+}
+.cardSection .card .cardBody {
+    padding: 0.5rem 1rem;
+}
+.cardSection .card .cardBody .cardTitle {
+    font-family: "Jost", sans-serif;
+    font-size: 1.6rem;
+}
+.cardSection .card .cardBody .cardPrice {
+    font-family: "Jost", sans-serif;
+    font-size: 1.3rem;
+    font-family: "Architects Daughter", cursive;
+}
+.cardSection .card .cardBody .cardRating {
+    font-family: "Architects Daughter", cursive;
+    font-size: 1rem;
+}
+
+/*  =========================== car Section =========================== */
