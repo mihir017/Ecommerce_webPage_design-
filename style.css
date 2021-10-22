@@ -220,7 +220,7 @@ header {
     position: relative;
     max-width: 75%;
     padding: 2rem;
-    margin: 4rem auto;
+    margin: 6rem auto;
 }
 .cardSection .cards {
     margin-top: 5rem;
@@ -258,6 +258,10 @@ header {
     font-family: "Jost", sans-serif;
     font-size: 1.6rem;
 }
+.cardSection .card .cardBody .cardTitle span {
+    font-size: 0.7rem;
+    margin-left: 0.3rem;
+}
 .cardSection .card .cardBody .cardPrice {
     font-family: "Jost", sans-serif;
     font-size: 1.3rem;
@@ -265,7 +269,46 @@ header {
 }
 .cardSection .card .cardBody .cardRating {
     font-family: "Architects Daughter", cursive;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    color: #1c1c1c;
 }
 
-/*  =========================== car Section =========================== */
+/*  =========================== card Section =========================== */
+
+/*  =========================== data  Section =========================== */
+
+/* .dataSection {
+    position: relative;
+    max-width: 75%;
+    padding: 2rem;
+    margin: 6rem auto;
+}
+.dataSection .card {
+    padding: 1rem;
+    border: 2px solid black;
+    transform: skew(184deg, 19deg);
+}
+.dataSection .card .number {
+    font-size: 3.5rem;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+}
+.dataSection .card p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Architects Daughter", cursive;
+} */
+
+/*  =========================== data Section =========================== */
+
+/*  =========================== Brand Section =========================== */
+
+.brandSection .card .brandImg {
+    width: 250px;
+    height: 200px;
+}
+.brandSection .card .brandImg img {
+    object-fit: contain;
+}
+
+/*  =========================== Brand Section =========================== */
