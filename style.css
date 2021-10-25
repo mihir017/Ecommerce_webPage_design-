@@ -17,7 +17,6 @@ body {
     width: 100%;
     height: 100vh;
     background-color: red;
-    padding: 3rem 0;
     /* color: white; */
     scroll-behavior: smooth;
 }
@@ -29,7 +28,6 @@ body {
     margin: auto;
     border-radius: 10px 0 10px 10px;
     position: relative;
-    padding-bottom: 2rem;
 }
 img {
     width: 100%;
@@ -215,7 +213,8 @@ header {
 /*  =========================== About Headphone Section =========================== */
 
 /*  =========================== car Section =========================== */
-
+.brandSection,
+.footerSection,
 .cardSection {
     position: relative;
     max-width: 75%;
@@ -238,6 +237,7 @@ header {
 .cardSection .cards .card:hover {
     box-shadow: none;
 }
+.brandSection .cardHeader,
 .cardSection .cardHeader {
     text-align: center;
     font-family: "Architects Daughter", cursive;
@@ -304,11 +304,27 @@ header {
 /*  =========================== Brand Section =========================== */
 
 .brandSection .card .brandImg {
-    width: 250px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
 }
 .brandSection .card .brandImg img {
     object-fit: contain;
 }
+.brandSection .card .brandImg:hover {
+    transform: scale(1.5);
+}
 
+/*  ========================= foooter =========================  */
+
+.footerSection {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+footer {
+    border-top: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+/*  ========================= foooter =========================  */
 /*  =========================== Brand Section =========================== */
