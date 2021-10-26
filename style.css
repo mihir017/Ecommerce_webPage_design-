@@ -359,6 +359,7 @@ footer .footerSection .footerLogo {
     padding: 0.6rem 1rem;
     outline: none;
     border: 2px solid black;
+    border-radius: 8px;
     font-family: "Architects Daughter", cursive;
     font-size: 0.8rem;
     background-color: transparent;
@@ -366,13 +367,14 @@ footer .footerSection .footerLogo {
 .footerSection .subscribe .inputField .subBtn {
     position: absolute;
     right: 8px;
-    top: 6px;
+    top: 5.3px;
     padding: 0.35rem 0.6rem;
     font-family: "Architects Daughter", cursive;
     cursor: pointer;
     background: #ff0000;
     border: none;
     color: white;
+    border-radius: 5px;
     box-shadow: 3px 3px 2px rgb(255 0 0 / 52%);
 }
 /* .footerSection .subscribe .inputField .subBtn:hover, */
