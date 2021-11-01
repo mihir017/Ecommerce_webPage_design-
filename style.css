@@ -105,14 +105,14 @@ header {
 .pink {
     background-color: pink;
 }
-.orange {
-    background-color: rgb(255, 153, 0);
+.yellow {
+    background-color: rgb(229, 255, 0);
 }
-.green {
-    background-color: green;
+.bisque {
+    background-color: bisque;
 }
-.blue {
-    background-color: blue;
+.aqua {
+    background-color: aqua;
 }
 
 /* change COLOR BTn */
